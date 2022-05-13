@@ -6,4 +6,8 @@ A beautiful dark theme based on the [Sitruuna Vim theme](https://github.com/eeme
 
 Following is the screenshot of this plugin in action. A Jetbrains port of theme is also in progress since that's my IDE of choice and I would love to use same theme everywhere.
 
+- Colorscheme: Sitruuna
+- Font: Victor Mono
+
 ![screenshot](./screenshot.png)
+
