@@ -120,7 +120,7 @@
         {
             "name": "Entity name",
             "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
-            "foreground": "var(yellow2)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "Inherited class",
@@ -137,7 +137,7 @@
         {
             "name": "Language variable",
             "scope": "variable.language",
-            "foreground": "var(orange)",
+            "foreground": "var(foreground)",
             "font_style": "italic"
         },
         {
