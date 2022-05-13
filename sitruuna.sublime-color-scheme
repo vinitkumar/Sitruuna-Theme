@@ -1,0 +1,93 @@
+{
+    "name": "Sitrunna Color Scheme",
+    "author": "Vinit Kumar",
+    "variables":
+    {
+        "middle": "#ffb354",
+        "bright": "#FAC03B",
+        "dark": "#131515",
+        "active": "#CD974B",
+        // "active": "#16BDEC"
+    },
+    "globals":
+    {
+        "foreground":                  "var(middle)",
+        "background":                  "#111",
+        "caret":                       "var(active)",
+        "line_highlight":              "#ffffff0C",
+        "misspelling":                 "#f00",
+        "selection":                   "#ffffff20",
+        // "selection_foreground":        "#fff",
+        "selection_border_width":      "0",
+        "selection_corner_radius":     "2",
+        "highlight":                   "var(active)",
+        "find_highlight_foreground":   "#000",
+        "find_highlight":              "var(active)",
+        "brackets_options":            "underline",
+        "brackets_foreground":         "var(active)",
+        "bracket_contents_options":    "underline",
+        "bracket_contents_foreground": "var(active)",
+        "tags_options":                "underline",
+        "tags_foreground":             "var(active)",
+    },
+    "rules":
+    [
+        {"name":       "Comments",
+         "scope":      "comment, punctuation.definition.comment, invalid comment",
+         // "foreground": "var(bright)",
+         "background": "var(dark)"},
+
+        {"name":       "Strings",
+         "scope":      "string, string punctuation",
+         "foreground": "var(bright)"},
+
+        {"name":       "Escapes \n",
+         "scope":      "constant.character.escape, constant.other.placeholder",
+         "background": "#ffffff20"},
+
+        // {"name":       "Constants",
+        //  "scope":      "constant",
+        //  "background": "#F9E0FF"},
+
+        {"name":       "Constants",
+         "scope":      "constant, punctuation.definition.constant",
+         "foreground": "var(bright)"},
+
+        {"name":       "Definitions",
+         "scope":      "entity.name - entity.name.tag",
+         "foreground": "var(bright)",
+         "background": "var(dark)"},
+
+        // {"name":       "Punctuation",
+        //  "scope":      "punctuation - punctuation.section, keyword.operator",
+        //  "foreground": "var(dark)"},
+
+        {"name":       "Outer brackets",
+         "scope":      "meta.parens punctuation.section, meta.brackets punctuation.section, meta.braces punctuation.section",
+         "foreground": "var(bright)"},
+
+        {"name":       "Inner brackets",
+         "scope":      "meta.parens meta.parens punctuation.section, meta.parens meta.brackets punctuation.section, meta.parens meta.braces punctuation.section, meta.brackets meta.parens punctuation.section, meta.brackets meta.brackets punctuation.section, meta.brackets meta.braces punctuation.section, meta.braces meta.parens punctuation.section, meta.braces meta.brackets punctuation.section, meta.braces meta.braces punctuation.section",
+         "foreground": "var(middle)"},
+
+        {"name":       "Mistakes",
+         "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",
+         "foreground": "#c33",
+         "background": "#2B1D1E"},
+
+        {"scope": "markup.inserted",
+         "foreground": "hsl(100, 50%, 50%)"},
+
+        {"scope": "markup.deleted",
+         "foreground": "hsl(2, 65%, 50%)"},
+
+        {"scope": "markup.changed",
+         "foreground": "hsl(30, 85%, 50%)"},
+
+        {"scope": "markup.ignored",
+         "foreground": "#aaa"},
+
+        {"scope": "markup.untracked",
+         "foreground": "#aaa"}
+    ]
+}
