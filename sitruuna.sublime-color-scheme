@@ -11,13 +11,13 @@
     },
     "globals":
     {
-        "foreground":                  "var(middle)",
-        "background":                  "#111",
+        "foreground":                  "#d1d1d1",
+        "background":                  "#181a1b",
         "caret":                       "var(active)",
         "line_highlight":              "#ffffff0C",
         "misspelling":                 "#f00",
-        "selection":                   "#ffffff20",
-        // "selection_foreground":        "#fff",
+        "selection":                   "#2D3032",
+        "selection_foreground":        "",
         "selection_border_width":      "0",
         "selection_corner_radius":     "2",
         "highlight":                   "var(active)",
