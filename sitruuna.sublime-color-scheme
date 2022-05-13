@@ -125,13 +125,13 @@
         {
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(yellow2)",
+            "foreground": "var(constant)",
             "font_style": "italic underline"
         },
         {
             "name": "Function argument",
             "scope": "variable.parameter - (source.c | source.c++ | source.objc | source.objc++)",
-            "foreground": "var(orange)",
+            "foreground": "var(foreground)",
             "font_style": "italic"
         },
         {
