@@ -215,7 +215,7 @@
         {
             "name": "markup h1",
             "scope": "markup.heading.1 punctuation.definition.heading",
-            "foreground": "var(red2)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "markup links",
@@ -240,22 +240,22 @@
         {
             "name": "markup hr",
             "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(yellow5)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "markup blockquote",
             "scope": "markup.quote punctuation.definition.blockquote",
-            "foreground": "var(yellow5)"
+            "foreground": "var(constant)"
         },
         {
             "name": "markup bullets",
             "scope": "markup.list.numbered.bullet",
-            "foreground": "var(purple)"
+            "foreground": "var(foreground)"
         },
         {
             "name": "markup bullets",
             "scope": "markup.list.unnumbered.bullet | (markup.list.numbered punctuation.definition)",
-            "foreground": "color(var(white) alpha(0.67))"
+            "foreground": "color(fg_alt)"
         },
         {
             "name": "markup code",
