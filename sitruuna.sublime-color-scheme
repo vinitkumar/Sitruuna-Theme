@@ -101,7 +101,7 @@
         {
             "name": "Entity name",
             "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
-            "foreground": "var(lemon)"
+            "foreground": "var(function)"
         },
         {
             "name": "Inherited class",
