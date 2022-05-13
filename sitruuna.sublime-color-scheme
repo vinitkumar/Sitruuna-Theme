@@ -80,12 +80,12 @@
         {
             "name": "Built-in constant",
             "scope": "constant.language",
-            "foreground": "var(purple)"
+            "foreground": "var(constant)"
         },
         {
             "name": "User-defined constant",
             "scope": "constant.character, constant.other",
-            "foreground": "var(purple)"
+            "foreground": "var(constant)"
         },
         {
             "name": "Variable",
@@ -94,7 +94,7 @@
         {
             "name": "Keyword",
             "scope": "keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word",
-            "foreground": "var(red2)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "Annotation Punctuation",
