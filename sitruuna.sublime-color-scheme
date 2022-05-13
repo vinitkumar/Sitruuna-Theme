@@ -18,45 +18,26 @@
         "string"     : "#37ad8",
         "type"       : "#7398dd",
         "constant"   : "#ca70d6",
-        "colerror"  :"#c15959",   
-        "black": "hsl(0, 0%, 0%)",
-        "black2": "hsl(60, 17%, 11%)",
-        "black3": "hsl(70, 8%, 15%)",
-        "blue": "hsl(190, 81%, 67%)",
-        "grey": "hsl(55, 8%, 26%)",
-        "orange": "hsl(32, 98%, 56%)",
-        "orange2": "hsl(30, 83%, 34%)",
-        "orange3": "hsl(47, 100%, 79%)",
-        "purple": "hsl(261, 100%, 75%)",
-        "red": "hsl(0, 93%, 59%)",
-        "red2": "hsl(338, 95%, 56%)",
-        "white": "hsl(0, 0%, 97%)",
-        "white2": "hsl(60, 36%, 96%)",
-        "white3": "hsl(60, 30%, 96%)",
-        "yellow": "hsl(54, 70%, 68%)",
-        "yellow2": "hsl(80, 76%, 53%)",
-        "yellow3": "hsl(60, 12%, 79%)",
-        "yellow4": "hsl(55, 11%, 22%)",
-        "yellow5": "hsl(50, 11%, 41%)"
+        "colerror"   : "#c15959"   
     },
     "globals":
     {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "caret": "color(var(white2) alpha(0.9))",
-        "block_caret": "color(var(white2) alpha(0.4))",
-        "invisibles": "color(var(white3) alpha(0.35))",
-        "line_highlight": "var(yellow4)",
+        "caret": "var(foreground)",
+        "block_caret": "var(foreground)",
+        "invisibles": "var(foreground))",
+        "line_highlight": "var(lemon)",
         "selection": "var(selection)",
         "selection_border": "var(selection)",
         "misspelling": "var(colerror)",
-        "active_guide": "color(var(orange2) alpha(0.69))",
+        "active_guide": "var(special)",
         "find_highlight_foreground": "var(fg_alt)",
-        "find_highlight": "var(orange3)",
+        "find_highlight": "var(special)",
         "brackets_options": "underline",
-        "brackets_foreground": "color(var(white3) alpha(0.65))",
+        "brackets_foreground": "var(foreground)",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "color(var(white3) alpha(0.65))",
+        "bracket_contents_foreground": "var(foreground)",
         "tags_options": "stippled_underline"
     },
     "rules":
@@ -70,12 +51,12 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(yellow)"
+            "foreground": "var(special)"
         },
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(purple)"
+            "foreground": "var(constant)"
         },
         {
             "name": "Built-in constant",
@@ -99,12 +80,12 @@
         {
             "name": "Annotation Punctuation",
             "scope": "punctuation.definition.annotation",
-            "foreground": "var(red2)"
+            "foreground": "var(colerror)"
         },
         {
             "name": "JavaScript Dollar",
             "scope": "variable.other.dollar.only.js",
-            "foreground": "var(red2)"
+            "foreground": "var(colerror)"
         },
         {
             "name": "Storage",
@@ -143,12 +124,12 @@
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
-            "foreground": "var(red2)"
+            "foreground": "var(colerror)"
         },
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(yellow2)"
+            "foreground": "var(special)"
         },
         {
             "name": "Function call",
@@ -163,7 +144,7 @@
         {
             "name": "Library constant",
             "scope": "support.constant",
-            "foreground": "var(blue)"
+            "foreground": "var(type)"
         },
         {
             "name": "Library class/type",
@@ -184,13 +165,13 @@
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "var(white2)",
-            "background": "var(purple)"
+            "foreground": "var(fg_alt)",
+            "background": "var(constant)"
         },
         {
             "name": "JSON String",
             "scope": "meta.structure.dictionary.json string.quoted.double.json",
-            "foreground": "var(yellow3)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "YAML String",
@@ -200,7 +181,7 @@
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(yellow5)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "markup headings",
@@ -210,7 +191,7 @@
         {
             "name": "markup headings",
             "scope": "markup.heading punctuation.definition.heading",
-            "foreground": "var(orange)"
+            "foreground": "var(special)"
         },
         {
             "name": "markup h1",
@@ -275,29 +256,29 @@
         {
             "name": "diff.deleted",
             "scope": "markup.deleted",
-            "foreground": "var(red2)"
+            "foreground": "var(colerror)"
         },
         {
             "name": "diff.inserted",
             "scope": "markup.inserted",
-            "foreground": "var(yellow2)"
+            "foreground": "var(special)"
         },
         {
             "name": "diff.changed",
             "scope": "markup.changed",
-            "foreground": "var(yellow)"
+            "foreground": "var(special)"
         },
         {
             "scope": "constant.numeric.line-number.find-in-files - match",
-            "foreground": "color(var(purple) alpha(0.63))"
+            "foreground": "var(constant)"
         },
         {
             "scope": "entity.name.filename",
-            "foreground": "var(yellow)"
+            "foreground": "var(special)"
         },
         {
             "scope": "message.error",
-            "foreground": "var(red)"
+            "foreground": "var(colerror)"
         },
 
         {
