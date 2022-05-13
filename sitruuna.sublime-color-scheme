@@ -64,7 +64,7 @@
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "var(yellow5)",
+            "foreground": "var(comment)",
             "background": "var(background)"
         },
         {
@@ -153,12 +153,12 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "var(lemon)"
+            "foreground": "var(function)"
         },
         {
             "name": "Library function",
             "scope": "support.function, support.macro",
-            "foreground": "var(blue)"
+            "foreground": "var(function)"
         },
         {
             "name": "Library constant",
@@ -168,7 +168,7 @@
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "var(blue)",
+            "foreground": "var(function)",
             "font_style": "italic"
         },
         {
@@ -178,8 +178,8 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "var(white2)",
-            "background": "var(red2)"
+            "foreground": "var(foreground)",
+            "background": "var(colerror)"
         },
         {
             "name": "Invalid deprecated",
