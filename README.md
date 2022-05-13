@@ -18,13 +18,9 @@ There are couple of steps required to add these colorscheme:
 
 - Save and search for "Sitruuna" and you should find the theme.
 
+## NOTE
 
-## Screenshot
-
-Following is the screenshot of this plugin in action. A Jetbrains port of theme is also in progress since that's my IDE of choice and I would love to use same theme everywhere.
+A Jetbrains port of theme is also in progress since that's my IDE of choice and I would love to use same theme everywhere.
 
 - Colorscheme: Sitruuna
 - Font: Victor Mono
-
-![screenshot](./screenshot.png)
-
