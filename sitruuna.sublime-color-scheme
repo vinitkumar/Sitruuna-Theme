@@ -195,7 +195,7 @@
         {
             "name": "YAML String",
             "scope": "string.unquoted.yaml",
-            "foreground": "var(white3)"
+            "foreground": "var(lemon)"
         },
         {
             "name": "diff.header",
@@ -302,22 +302,22 @@
 
         {
             "scope": "diff.deleted",
-            "background": "hsla(338, 50%, 56%, 0.15)",
+            "background": "var(colerror)",
             "foreground_adjust": "l(+ 5%)"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(338, 65%, 56%, 0.30)",
+            "background": "var(colerror)",
             "foreground_adjust": "l(+ 10%)"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(80, 50%, 53%, 0.15)",
+            "background": "var(string)",
             "foreground_adjust": "l(+ 5%)"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(80, 65%, 53%, 0.30)",
+            "background": "var(string)",
             "foreground_adjust": "l(+ 10%)"
         },
     ]
