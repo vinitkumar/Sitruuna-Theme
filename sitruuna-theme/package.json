@@ -1,0 +1,21 @@
+{
+    "name": "sitruuna-theme",
+    "displayName": "Sitruuna Theme",
+    "description": "Code port for Sitruuna Vim theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sitruuna Theme for VSCode",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sitruuna Theme for VSCode-color-theme.json"
+            }
+        ]
+    }
+}
